@@ -1,0 +1,25 @@
+{
+  "name": "little-bot",
+  "version": "0.1.0-dev",
+  "description": "A Little Bot",
+  "bin": {
+    "little-bot": "bin/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Andrus Roberts <mroberts@twilio.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "form-data": "^2.3.3",
+    "image-data-uri": "^2.0.0",
+    "node-fetch": "^2.6.0",
+    "promise-poller": "^1.7.0",
+    "puppeteer": "^1.17.0",
+    "tmp": "^0.1.0",
+    "twilio": "^3.31.1"
+  }
+}
