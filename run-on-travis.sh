@@ -9,4 +9,4 @@ curl -s -X POST \
    -H "Travis-API-Version: 3" \
    -H "Authorization: token ${TRAVIS_TOKEN}" \
    -d "$body" \
-   https://api.travis-ci.org/repo/markandrus%2Flittle-bot/requests
+   https://api.travis-ci.com/repo/markandrus%2Flittle-bot/requests
